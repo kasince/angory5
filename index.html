@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+ <div id="nav" class="d-flex justify-content-between m-4 shadow-lg p-3 mb-5 bg-body-tertiary rounded d-none ">
+    <div class="logo text-white">SMART LOGIN
+</div>
+<div id="logout2"> <button
+          id="logout"
+          class="btn btn-outline-warning d-block "
+          type="submit"
+        >
+          logout
+        </button></div>
+ </div>
+    <div class="container d-flex justify-content-center align-items-center">
+         
+      <div class="item shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+        <h1 class="text-center m-3">Smart Login System</h1>
+        <div class="input-group d-none" id="name-group">
+          <input
+            id="name"
+            type="text"
+            class="form-control my-2"
+            placeholder="Enter your name "
+            aria-label="enter your name"
+            aria-describedby="visible-addon"
+          />
+        </div>
+        <div class="input-group">
+          <input
+            id="email"
+            type="email"
+            class="form-control"
+            placeholder="Enter your email"
+            aria-label="enter your email"
+            aria-describedby="visible-addon"
+          />
+        </div>
+        <div class="input-group mt-3">
+          <input
+            id="pass"
+            type="password"
+            class="form-control"
+            placeholder="Enter your password"
+            aria-label="enter your password"
+            aria-describedby="visible-addon"
+          />
+        </div>
+
+        <button
+          id="login"
+          class="btn btn-outline-info w-100 d-block mt-4"
+          type="submit"
+        >
+          login
+        </button>
+        <button
+          id="sign-btn"
+          class="btn btn-outline-info mt-4 w-100 d-none"
+          type="submit"
+        >
+          sign up
+        </button>
+        <p class="text-center">
+          You have an account? <span class="span1 d-block">Sign up</span>
+          <span class="span2 d-none">Signin</span>
+        </p>
+      </div>
+
+<div class="item2 item shadow-lg p-3 mb-5 bg-body-tertiary rounded d-none">
+  <h1>welcome <span class="span3"></span></h1>
+</div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
